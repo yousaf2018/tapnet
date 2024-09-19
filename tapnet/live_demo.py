@@ -36,7 +36,7 @@ print("Loading checkpoint...")
 # --------------------
 # Load checkpoint and initialize
 params, state = load_checkpoint(
-    "tapnet/checkpoints/causal_tapir_checkpoint.npy"
+    "C:\\Users\\neurog\\Documents\\tapnet\\checkpoints\\causal_tapir_checkpoint.npy"
 )
 
 tapir = tapir_model.ParameterizedTAPIR(
